@@ -1,0 +1,563 @@
+/*font shit*/
+
+@font-face {
+    font-family: 'segoe_uibold_italic';
+    src: url('segoe_ui_bold_italic-webfont.woff2') format('woff2'),
+         url('segoe_ui_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'segoe_uibold';
+    src: url('segoe_ui_bold-webfont.woff2') format('woff2'),
+         url('segoe_ui_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'segoe_uiitalic';
+    src: url('segoe_ui_italic-webfont.woff2') format('woff2'),
+         url('segoe_ui_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'segoe_uiregular';
+    src: url('segoe_ui-webfont.woff2') format('woff2'),
+         url('segoe_ui-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* header shit  */
+
+/* goback */
+
+.goback{
+    display: flex;
+    width: 1920;
+    height: 200;
+}
+
+.gobacktxt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 149px;
+    background-color: #94BEE6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 0px;
+}
+
+
+.headerlogo{
+
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(203deg) brightness(152%) contrast(102%);
+    margin-left: 17px;
+    margin-top: 7px;
+    margin-right: 1vw;
+    margin-bottom: 7px;
+    width: 240px;
+}
+
+.headerbuttons{
+    display:flex;
+    gap: 76px;
+    align-items: center;
+}
+
+
+.headerbuttons a {
+    display: flex;
+    align-items: center;
+    /* width: 160px; */
+}
+
+.knapp_laget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+
+.singleline{
+    background-color: #94BEE6;
+    border: white solid;
+    height: 70px;
+    padding: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    align-items: center; 
+}
+
+.doubleline{
+    /*unused*/
+    background-color: #94BEE6;
+    border: black solid;
+    height: 70px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.minlacrosseicon{
+    height: 8vw;
+    width: 10vw;
+    margin-right: 3vw;
+    -webkit-filter: invert(100%);
+          filter: invert(100%);
+    
+}
+
+.activebutton{
+    background-color: #8d9092;
+    border: white solid;
+    height: 70px;
+    padding: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    align-items: center; 
+}
+
+/* end of header shit */
+
+/* start of content shit */
+
+
+
+/* INDEX.HTML */
+
+.content_index {
+    display: flex;
+    gap: 5vw;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.pandalogo {
+    width: 30vw;
+    margin-top: 0px;
+}
+
+.content_index {
+    display: flex;
+    flex-direction: right; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    padding-bottom: 80px;
+}
+
+.index_textfieldheader {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.index_textfieldcontent {
+    font-weight: 100;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT';
+}
+
+.index_textfieldcalltoaction {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.prefooterflexbox{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.prefooter_side1{
+    font-weight: 100;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+
+}
+
+.prefooter_side1_bold{
+    font-weight: 800;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+.index_footer{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    background-color: #94BEE6;
+}
+
+/* LAGET.HTML */
+
+.laget_flexbox{
+    display: flex;
+    gap: 5vw;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.laget_header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120px;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.lagetpng{
+    width: 45vw;
+    margin-right: 5vw;
+}
+
+.laget_content{
+    font-weight: 100;
+    font-size: 34px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT';
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 40.5vw;
+}
+
+.laget_allrightsreserved{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 48.5vw;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* HVAERLACROSSE.HTML */
+
+.hvaerlacrosse_flexbox{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.hvaerlacrosse_header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    margin-left: 50px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.hvaerlacrossepng{
+    width: 45vw;
+}
+
+.hvaerlacrosse_content{
+    font-weight: 100;
+    font-size: 29px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT';
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.hvaerlacrosse_allrightsreserved{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 53.9vw;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* PÅMELDING.HTML */
+
+.form{
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+.påmelding_header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+  input[type=send] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+    input[type=submit]:hover {
+    background-color: #808080;
+  }
+    .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.påmelding_ja-nei{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.påmelding_erfaring{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.submit{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* KAMPER.HTML */
+
+
+.kamper_header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.mainflexbox1{
+    display: flex;
+    gap: 20vw;
+    justify-content: center;
+}
+
+.kamper_flexbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.kamperfb1_h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.kamper_flexbox2{
+display: flex; 
+margin-top: 126px;   
+margin-bottom: 100px;
+}
+
+.kamper_h2{
+    font-size: 45px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.kamper_h3{
+    font-size: 45px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 28px;
+}
+
+.kamper_h4{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 28px;
+}
+
+.kamper_flexbox3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.kamper_header2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* LOGIN.HTML */
+
+li{
+    list-style-type: none;
+    text-align:left;
+    padding-left:12%;
+    padding-bottom:10%;
+  }
+  
+  input{
+    background-color:#e7e7e7;
+    border:none;
+   border-radius:5px;
+    text-align:left;
+    color:rgb(10, 10, 10);
+    
+  }
+  
+  .logginn_header{
+  font-family: 'Homenaje', sans-serif;
+    color:#3D352A;
+  }
+  
+  .container{
+  font-family: 'Homenaje', sans-serif;
+    border:1px rgb(255, 255, 255) solid;
+    width:30vw;
+    text-align:center;
+    margin:auto;
+    background-color:white;
+    padding-bottom:10px;
+  }
+  
+  .login_body{
+    display: flex;
+    justify-content: center;
+    background-color:#D4CCC5;
+    text-align:center;
+    padding:5px;
+  }
+  .submit{
+  background-color:transparent;
+    color:rgb(0, 0, 0);
+    border:1px solid black;
+    width:50%;
+    font-family: 'Homenaje', sans-serif;
+    font-size:20px;
+    transition:1s ease;
+    text-align:center;
+   }
+  
+   .headerlogin{
+    display: flex;
+    justify-content: center;
+    height: 149px;
+    background-color: #94BEE6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 0px;
+}
+
+ul{
+    padding: 0;
+}
+
+.loginbox{
+    margin-right: 3vw;
+    padding: 0;
+
+}
+
+/* TRENINGSTIDER.HTML */
+
+.treningstider_h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.treningstider_h2{
+    display: flex;
+    justify-content: left;
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.treningstider_h3{
+    display: flex;
+    justify-content: left;
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.treningstider_h4{
+    display: flex;
+    justify-content: left;
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 0px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
