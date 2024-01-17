@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oslo Lacrosse - Påmelding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="goback">
+        <h class="gobacktxt">Dette er en demo-side.</h>
+        <a class="gobacktxt" href="/portefolje.html">Gå tilbake</a>
+    </div>
+    
+    <div class="header">
+        <a href="index.html"><img class="headerlogo" src="Logo_text.png" alt=""></a>
+        <div class="headerbuttons">
+            <a href="laget.html" class="singleline">Laget</a>
+            <a href="hvaerlacrosse.html" class="singleline">Hva er<br>Lacrosse?</a>
+            <a href="pamelding.html" class="activebutton">Påmelding</a>
+            <a href="kamper.html" class="singleline">Kamper</a>
+
+            <a href="login.html" class="headerimg"> <img src="trace.svg" alt="" class="minlacrosseicon"> </a>
+
+        </div>
+    </div>
+
+    <div class="content_påmelding">
+        <div class="form">
+            <form>
+                <h1 class="påmelding_header">Påmeldingsskjema</h1>
+                <label for="fname">Navn</label>
+                <input type="text" id="fname" name="firstname" placeholder="Fornavnet ditt..">
+
+                <label for="lname">Etternavn</label>
+                <input type="text" id="lname" name="lastname" placeholder="Etternavnet ditt...">
+
+                <label for="age">Alder</label>
+                <input type="text" id="age" name="age" placeholder="Skriv alder...">
+
+                <label for="Fylke">Fylke (Bostedsadresse)</label>
+                <select id="banan" onselect="refresh()">
+                    <option value="Oslo">Oslo</option>
+                    <option value="Viken">Viken</option>
+                    <option value="Innlandet">Innlandet</option>
+                    <option value="Møre og Romsdal">Møre og Romsdal</option>
+                    <option value="Nordland">Nordland</option>
+                    <option value="Rogaland">Rogaland</option>
+                    <option value="Vestfold og Telemark">Vestfold og Telemark</option>
+                    <option value="Troms og Finnmark">Troms og Finnmark</option>
+                    <option value="Trøndelag">Trøndelag</option>
+                    <option value="Vestland">Vestland</option>
+                    <option value="Agder">Agder</option>
+                </select>
+
+                <label for="Kommune">Kommune/Bydel (Bostedsadresse)</label>
+                <select id="kommune">
+                    <option>Velg kommune...</option>
+                </select>
+                <label>Jeg har mulighet til å komme på treninger minst èn gang i uken:</label> <br>
+                <div class="påmelding_ja-nei">
+                <h3>Ja</h3><input type="checkbox"><h3>Nei</h3><input type="checkbox">
+                    <br><br>
+                </div>
+                <label>Har du tidligere erfaring med Lacrosse?</label> <br>
+
+                <div class="påmelding_erfaring">
+                    <h3>Ja</h3><input type="checkbox"><h3>Nei</h3><input type="checkbox">
+                        <br><br>
+                    </div>
+                
+
+                <label for="subject">Hvis Ja, hva er din tidligere Lacrosse-erfaring? (hvis nei, la denne være blank)</label>
+                <textarea id="subject" name="subject" placeholder="Skriv tidligere erfaring..."
+                    style="height:200px"></textarea>
+
+                <input class="submit" type="submit" value="Send inn">
+
+                
+                
+        </div>
+    </div>
+    </form>
+    <div class="index_footer">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
